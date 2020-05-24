@@ -79,6 +79,10 @@ img {
   font-weight: 700;
 }
 
+.page-1__top {
+  color: #000;
+}
+
 .page-1__list {
   margin: 30px auto 0;
 }
