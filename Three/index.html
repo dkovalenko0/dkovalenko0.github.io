@@ -1,607 +1,594 @@
 <!DOCTYPE html>
 <html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Three</title>
 
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport"
-        content="width=device-width, initial-scale=1.0">
-  <meta http-equiv="X-UA-Compatible"
-        content="ie=edge">
-  <title>Three</title>
-  <link rel="stylesheet"
-        href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.min.css"
-        integrity="sha256-+N4/V/SbAFiW1MPBCXnfnP9QSN3+Keu+NlB+0ev/YKQ="
-        crossorigin="anonymous" />
-  <link href="https://fonts.googleapis.com/css?family=Muli:300,400,700,900|Playfair+Display:400,900&display=swap"
-        rel="stylesheet">
-  <link rel="stylesheet"
-        href="css/style.min.css">
-</head>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.min.css"
+      integrity="sha256-+N4/V/SbAFiW1MPBCXnfnP9QSN3+Keu+NlB+0ev/YKQ="
+      crossorigin="anonymous"
+    />
 
-<body>
+    <!-- Google Fonts -->
+    <link
+      href="https://fonts.googleapis.com/css?family=Muli:300,400,700,900|Playfair+Display:400,900&display=swap"
+      rel="stylesheet"
+    />
 
-  <header class="header">
-    <div class="header__inner">
-      <nav class="nav">
-        <ul>
-          <li><a class="header__link"
-               href="#">Portfolio</a></li>
-          <li><a class="header__link"
-               href="#">About</a></li>
-          <li class="header__logo"><a href="#"><img src="img/logo.png"
-                   alt="logo"></a></li>
-          <li><a class="header__link"
-               href="#">Articles</a></li>
-          <li><a class="header__link"
-               href="#">Contact</a></li>
-        </ul>
-      </nav>
+    <!-- Template Main CSS File -->
+    <link rel="stylesheet" href="assets/css/vendors/styles.min.css" />
+    <link rel="stylesheet" href="assets/css/styles.min.css?cb=1593023651679" />
+  </head>
 
-      <div class="header__title">
-        <div>
-          SOLUTIONS
-        </div>
-      </div>
+  <body>
+    <header class="header">
+      <div class="header__inner">
+        <nav class="nav">
+          <ul>
+            <li><a class="header__link" href="#">Portfolio</a></li>
+            <li><a class="header__link" href="#">About</a></li>
+            <li class="header__logo">
+              <a href="#"><img src="assets/images/logo.png" alt="logo" /></a>
+            </li>
+            <li><a class="header__link" href="#">Articles</a></li>
+            <li><a class="header__link" href="#">Contact</a></li>
+          </ul>
+        </nav>
 
-      <div class="header__slogan">
-        <div>
-          Small studio with grand ideas making sure
-          people get what their businesses really need
-        </div>
-      </div>
-    </div>
-  </header>
-
-   <section class="featured">
-    <div class="slider">
-
-      <div class="slider__item">
-        <figure>
-          <figcaption>
-            <div class="figcaption__inner">
-              <div class="title--md">
-                Aarhus
-                Lejerboliger
-              </div>
-              <div class="title--sm">
-                Website
-              </div>
-              <p class="text--default">
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et
-                dolore magna
-                aliqua.
-              </p>
-              <p class="text--default">
-                Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam
-                rem aperiam,
-                eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo.
-              </p>
-              <a href="#"
-                 class="btn--default">View Project</a>
-            </div>
-          </figcaption>
-          <img src="img/slider-img-1.png"
-               alt="">
-        </figure>
-      </div>
-
-      <div class="slider__item">
-        <figure>
-          <figcaption>
-            <div class="figcaption__inner">
-              <div class="title--md">
-                Aarhus
-                Lejerboliger
-              </div>
-              <div class="title--sm">
-                Website
-              </div>
-              <p class="text--default">
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et
-                dolore magna
-                aliqua.
-              </p>
-              <p class="text--default">
-                Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam
-                rem aperiam,
-                eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo.
-              </p>
-              <a href="#"
-                 class="btn--default">View Project</a>
-            </div>
-          </figcaption>
-          <img src="img/slider-img-1.png"
-               alt="">
-        </figure>
-      </div>
-
-      <div class="slider__item">
-        <figure>
-          <figcaption>
-            <div class="figcaption__inner">
-              <div class="title--md">
-                Aarhus
-                Lejerboliger
-              </div>
-              <div class="title--sm">
-                Website
-              </div>
-              <p class="text--default">
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et
-                dolore magna
-                aliqua.
-              </p>
-              <p class="text--default">
-                Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam
-                rem aperiam,
-                eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo.
-              </p>
-              <a href="#"
-                 class="btn--default">View Project</a>
-            </div>
-          </figcaption>
-          <img src="img/slider-img-1.png"
-               alt="">
-        </figure>
-      </div>
-
-      <div class="slider__item">
-        <figure>
-          <figcaption>
-            <div class="figcaption__inner">
-              <div class="title--md">
-                Aarhus
-                Lejerboliger
-              </div>
-              <div class="title--sm">
-                Website
-              </div>
-              <p class="text--default">
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et
-                dolore magna
-                aliqua.
-              </p>
-              <p class="text--default">
-                Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam
-                rem aperiam,
-                eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo.
-              </p>
-              <a href="#"
-                 class="btn--default">View Project</a>
-            </div>
-          </figcaption>
-          <img src="img/slider-img-1.png"
-               alt="">
-        </figure>
-      </div>
-
-    </div>
-  </section>
-
-   <section class="projects">
-    <div class="projects__inner">
-      <div class="block-info projects__info">
-        <div class="title--lg block-info-title">
-          SELECTED
-          <span>PROJECTS</span>
-        </div>
-
-        <p class="text--default projects__info-text">
-          Three stands for “Functional, Timeless and Innovative”. That’s what powers our work when it comes to any
-          kind
-          of design,
-          be it a simple marketing website or a full-stack application. Below you can find a couple of works we think
-          best
-          represent our three strenght points.
-        </p>
-      </div>
-
-      <div class="projects__content">
-
-        <div class="projects__content-item">
-
-          <a href="#">
-            <img src="img/projects-img-1.png"
-                 alt="projects-img">
-            <div class="projects__content--hover">
-              <div class="projects__content--hover-inner">
-                <span class="projects__content-pretitle">Website</span>
-                <span class="projects__content-title">ARIMA INTL</span>
-              </div>
-            </div>
-          </a>
-
-        </div>
-
-        <div class="projects__content-item">
-
-          <a href="#">
-            <img src="img/projects-img-2.png"
-                 alt="projects-img">
-            <div class="projects__content--hover">
-              <div class="projects__content--hover-inner">
-                <span class="projects__content-pretitle">Website</span>
-                <span class="projects__content-title">ARIMA INTL</span>
-              </div>
-            </div>
-          </a>
-
-        </div>
-
-        <div class="projects__content-item">
-
-          <a href="#">
-            <img src="img/projects-img-3.png"
-                 alt="projects-img">
-            <div class="projects__content--hover">
-              <div class="projects__content--hover-inner">
-                <span class="projects__content-pretitle">Website</span>
-                <span class="projects__content-title">ARIMA INTL</span>
-              </div>
-            </div>
-          </a>
-
-        </div>
-
-        <div class="projects__content-item">
-
-          <a href="#">
-            <img src="img/projects-img-4.png"
-                 alt="projects-img">
-            <div class="projects__content--hover">
-              <div class="projects__content--hover-inner">
-                <span class="projects__content-pretitle">Website</span>
-                <span class="projects__content-title">ARIMA INTL</span>
-              </div>
-            </div>
-          </a>
-
-        </div>
-
-        <div class="projects__content-item">
-
-          <a href="#">
-            <img src="img/projects-img-5.png"
-                 alt="projects-img">
-            <div class="projects__content--hover">
-              <div class="projects__content--hover-inner">
-                <span class="projects__content-pretitle">Website</span>
-                <span class="projects__content-title">ARIMA INTL</span>
-              </div>
-            </div>
-          </a>
-
-        </div>
-
-        <div class="projects__content-item">
-
-          <a href="#">
-            <img src="img/projects-img-2.png"
-                 alt="projects-img">
-            <div class="projects__content--hover">
-              <div class="projects__content--hover-inner">
-                <span class="projects__content-pretitle">Website</span>
-                <span class="projects__content-title">ARIMA INTL</span>
-              </div>
-            </div>
-          </a>
-
-        </div>
-
-      </div>
-
-
-    </div>
-
-    </div>
-  </section>
-
-  <section class="about">
-    <div class="about__inner">
-      <figure>
-        <div class="about-bg">
-          <div class="about__title--lg title--lg">
-            ABOUT
-            <span>THREE</span>
+        <div class="header__title">
+          <div>
+            SOLUTIONS
           </div>
         </div>
 
-        <figcaption>
-          <div class="about__inner-info">
-            <div class="about_inner-info--functional">
-              <div class="about__title--sm title--sm title--sm--purple">
-                Functional
-              </div>
-              <p class="text--default">
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et
-                dolore magna
-                aliqua.
-              </p>
-            </div>
+        <div class="header__slogan">
+          <div>
+            Small studio with grand ideas making sure people get what their
+            businesses really need
+          </div>
+        </div>
+      </div>
+    </header>
 
-            <div class="about_inner-info--timeles">
-              <div class="about__title--sm title--sm title--sm--purple">
-                Timeless
+    <section class="featured">
+      <div class="slider">
+        <div class="slider__item">
+          <figure>
+            <figcaption>
+              <div class="figcaption__inner">
+                <div class="title--md">
+                  Aarhus Lejerboliger
+                </div>
+                <div class="title--sm">
+                  Website
+                </div>
+                <p class="text--default">
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
+                  do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                </p>
+                <p class="text--default">
+                  Sed ut perspiciatis unde omnis iste natus error sit voluptatem
+                  accusantium doloremque laudantium, totam rem aperiam, eaque
+                  ipsa quae ab illo inventore veritatis et quasi architecto
+                  beatae vitae dicta sunt explicabo.
+                </p>
+                <a href="#" class="btn--default">View Project</a>
               </div>
-              <p class="text--default">
-                Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-                consequat.
-              </p>
-            </div>
+            </figcaption>
+            <img src="assets/images/slider-img-1.png" alt="" />
+          </figure>
+        </div>
 
-            <div class="about_inner-info----innovative">
-              <div class="about__title--sm title--sm title--sm--purple">
-                Innovative
+        <div class="slider__item">
+          <figure>
+            <figcaption>
+              <div class="figcaption__inner">
+                <div class="title--md">
+                  Aarhus Lejerboliger
+                </div>
+                <div class="title--sm">
+                  Website
+                </div>
+                <p class="text--default">
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
+                  do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                </p>
+                <p class="text--default">
+                  Sed ut perspiciatis unde omnis iste natus error sit voluptatem
+                  accusantium doloremque laudantium, totam rem aperiam, eaque
+                  ipsa quae ab illo inventore veritatis et quasi architecto
+                  beatae vitae dicta sunt explicabo.
+                </p>
+                <a href="#" class="btn--default">View Project</a>
               </div>
+            </figcaption>
+            <img src="assets/images/slider-img-1.png" alt="" />
+          </figure>
+        </div>
+
+        <div class="slider__item">
+          <figure>
+            <figcaption>
+              <div class="figcaption__inner">
+                <div class="title--md">
+                  Aarhus Lejerboliger
+                </div>
+                <div class="title--sm">
+                  Website
+                </div>
+                <p class="text--default">
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
+                  do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                </p>
+                <p class="text--default">
+                  Sed ut perspiciatis unde omnis iste natus error sit voluptatem
+                  accusantium doloremque laudantium, totam rem aperiam, eaque
+                  ipsa quae ab illo inventore veritatis et quasi architecto
+                  beatae vitae dicta sunt explicabo.
+                </p>
+                <a href="#" class="btn--default">View Project</a>
+              </div>
+            </figcaption>
+            <img src="assets/images/slider-img-1.png" alt="" />
+          </figure>
+        </div>
+
+        <div class="slider__item">
+          <figure>
+            <figcaption>
+              <div class="figcaption__inner">
+                <div class="title--md">
+                  Aarhus Lejerboliger
+                </div>
+                <div class="title--sm">
+                  Website
+                </div>
+                <p class="text--default">
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
+                  do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                </p>
+                <p class="text--default">
+                  Sed ut perspiciatis unde omnis iste natus error sit voluptatem
+                  accusantium doloremque laudantium, totam rem aperiam, eaque
+                  ipsa quae ab illo inventore veritatis et quasi architecto
+                  beatae vitae dicta sunt explicabo.
+                </p>
+                <a href="#" class="btn--default">View Project</a>
+              </div>
+            </figcaption>
+            <img src="assets/images/slider-img-1.png" alt="" />
+          </figure>
+        </div>
+      </div>
+    </section>
+
+    <section class="projects">
+      <div class="projects__inner">
+        <div class="block-info projects__info">
+          <div class="title--lg">
+            SELECTED
+            <span>PROJECTS</span>
+          </div>
+
+          <p class="text--default projects__info-text">
+            Three stands for “Functional, Timeless and Innovative”. That’s what powers our work when it comes to any
+            kind
+            of design,
+            be it a simple marketing website or a full-stack application. Below you can find a couple of works we think
+            best
+            represent our three strenght points.
+          </p>
+        </div>
+
+        <div class="projects__content">
+
+          <div class="projects__content-item">
+
+            <a href="#">
+              <img src="assets/images/projects-img-1.png"
+                  alt="projects-img">
+              <div class="projects__content--hover">
+                <div class="projects__content--hover-inner">
+                  <span class="projects__content-pretitle">Website</span>
+                  <span class="projects__content-title">ARIMA INTL</span>
+                </div>
+              </div>
+            </a>
+
+          </div>
+
+          <div class="projects__content-item">
+
+            <a href="#">
+              <img src="assets/images/projects-img-2.png"
+                  alt="projects-img">
+              <div class="projects__content--hover">
+                <div class="projects__content--hover-inner">
+                  <span class="projects__content-pretitle">Website</span>
+                  <span class="projects__content-title">ARIMA INTL</span>
+                </div>
+              </div>
+            </a>
+
+          </div>
+
+          <div class="projects__content-item">
+
+            <a href="#">
+              <img src="assets/images/projects-img-3.png"
+                  alt="projects-img">
+              <div class="projects__content--hover">
+                <div class="projects__content--hover-inner">
+                  <span class="projects__content-pretitle">Website</span>
+                  <span class="projects__content-title">ARIMA INTL</span>
+                </div>
+              </div>
+            </a>
+
+          </div>
+
+          <div class="projects__content-item">
+
+            <a href="#">
+              <img src="assets/images/projects-img-4.png"
+                  alt="projects-img">
+              <div class="projects__content--hover">
+                <div class="projects__content--hover-inner">
+                  <span class="projects__content-pretitle">Website</span>
+                  <span class="projects__content-title">ARIMA INTL</span>
+                </div>
+              </div>
+            </a>
+
+          </div>
+
+          <div class="projects__content-item">
+
+            <a href="#">
+              <img src="assets/images/projects-img-5.png"
+                  alt="projects-img">
+              <div class="projects__content--hover">
+                <div class="projects__content--hover-inner">
+                  <span class="projects__content-pretitle">Website</span>
+                  <span class="projects__content-title">ARIMA INTL</span>
+                </div>
+              </div>
+            </a>
+
+          </div>
+
+          <div class="projects__content-item">
+
+            <a href="#">
+              <img src="assets/images/projects-img-2.png"
+                  alt="projects-img">
+              <div class="projects__content--hover">
+                <div class="projects__content--hover-inner">
+                  <span class="projects__content-pretitle">Website</span>
+                  <span class="projects__content-title">ARIMA INTL</span>
+                </div>
+              </div>
+            </a>
+
+          </div>
+
+        </div>
+
+
+      </div>
+
+      </div>
+    </section>
+
+    <section class="about">
+      <div class="about__inner">
+        <figure>
+          <div class="about-bg">
+            <div class="about__title--lg title--lg">
+              ABOUT
+              <span>THREE</span>
+            </div>
+          </div>
+
+          <figcaption>
+            <div class="about__inner-info">
+              <div class="about__inner-info--item">
+                <div class="about__title--sm title--sm title--sm--purple">
+                  Functional
+                </div>
+                <p class="text--default">
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et
+                  dolore magna
+                  aliqua.
+                </p>
+              </div>
+
+              <div class="about__inner-info--item">
+                <div class="about__title--sm title--sm title--sm--purple">
+                  Timeless
+                </div>
+                <p class="text--default">
+                  Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+                  consequat.
+                </p>
+              </div>
+
+              <div class="about__inner-info--item">
+                <div class="about__title--sm title--sm title--sm--purple">
+                  Innovative
+                </div>
+                <p class="text--default">
+                  Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+                  Excepteur sint.
+                </p>
+              </div>
+
+
+            </div>
+          </figcaption>
+        </figure>
+
+        <a href="#"
+          class="about__btn btn--default">READ MORE</a>
+      </div>
+    </section> 
+
+    <section class="team">
+      <div class="team__inner">
+        <div class="block-info projects__info">
+          <div class="title--lg">
+            MEET THE
+            <span>SUPERSTARS</span>
+          </div>
+
+          <p class="text--default projects__info-text">
+            We’re a small team but we sure know how to do our job. Below are the awesome heroes behind Three, the people
+            that make
+            it all happen. The people that ensure you and your business are thriving. The people who we couldn’t live
+            without. We
+            also know how to pose.
+          </p>
+        </div>
+
+        <div class="team__slider">
+
+          <div class="team__slider-item">
+            <img src="assets/images/team-img-1.png"
+                alt="Avatar"
+                class="image"
+                style="width:100%">
+            <div class="team__slider-item-info">
+
+              <div class="team__slider-item-info-inner">
+                <span class="team__slider-item-pretitle">Designer</span>
+                <span class="team__slider-item-title">CHERRY DYSON</span>
+                <div class="team__slider-item-socials">
+                  <a href="#"><i class="fab fa-twitter"></i></a>
+                  <a href="#"><i class="fab fa-facebook-square"></i></a>
+                  <a href="#"><i class="fab fa-instagram"></i></a>
+                  <a href="#"><i class="fas fa-envelope"></i></a>
+                </div>
+              </div>
+
+            </div>
+          </div>
+
+          <div class="team__slider-item">
+            <img src="assets/images/team-img-1.png"
+                alt="Avatar"
+                class="image"
+                style="width:100%">
+            <div class="team__slider-item-info">
+
+              <div class="team__slider-item-info-inner">
+                <span class="team__slider-item-pretitle">Designer</span>
+                <span class="team__slider-item-title">CHERRY DYSON</span>
+                <div class="team__slider-item-socials">
+                  <a href="#"><i class="fab fa-twitter"></i></a>
+                  <a href="#"><i class="fab fa-facebook-square"></i></a>
+                  <a href="#"><i class="fab fa-instagram"></i></a>
+                  <a href="#"><i class="fas fa-envelope"></i></a>
+                </div>
+              </div>
+
+            </div>
+          </div>
+
+          <div class="team__slider-item">
+            <img src="assets/images/team-img-1.png"
+                alt="Avatar"
+                class="image"
+                style="width:100%">
+            <div class="team__slider-item-info">
+
+              <div class="team__slider-item-info-inner">
+                <span class="team__slider-item-pretitle">Designer</span>
+                <span class="team__slider-item-title">CHERRY DYSON</span>
+                <div class="team__slider-item-socials">
+                  <a href="#"><i class="fab fa-twitter"></i></a>
+                  <a href="#"><i class="fab fa-facebook-square"></i></a>
+                  <a href="#"><i class="fab fa-instagram"></i></a>
+                  <a href="#"><i class="fas fa-envelope"></i></a>
+                </div>
+              </div>
+
+            </div>
+          </div>
+
+          <div class="team__slider-item">
+            <img src="assets/images/team-img-1.png"
+                alt="Avatar"
+                class="image"
+                style="width:100%">
+            <div class="team__slider-item-info">
+
+              <div class="team__slider-item-info-inner">
+                <span class="team__slider-item-pretitle">Designer</span>
+                <span class="team__slider-item-title">CHERRY DYSON</span>
+                <div class="team__slider-item-socials">
+                  <a href="#"><i class="fab fa-twitter"></i></a>
+                  <a href="#"><i class="fab fa-facebook-square"></i></a>
+                  <a href="#"><i class="fab fa-instagram"></i></a>
+                  <a href="#"><i class="fas fa-envelope"></i></a>
+                </div>
+              </div>
+
+            </div>
+          </div>
+
+          <div class="team__slider-item">
+            <img src="assets/images/team-img-1.png"
+                alt="Avatar"
+                class="image"
+                style="width:100%">
+            <div class="team__slider-item-info">
+
+              <div class="team__slider-item-info-inner">
+                <span class="team__slider-item-pretitle">Designer</span>
+                <span class="team__slider-item-title">CHERRY DYSON</span>
+                <div class="team__slider-item-socials">
+                  <a href="#"><i class="fab fa-twitter"></i></a>
+                  <a href="#"><i class="fab fa-facebook-square"></i></a>
+                  <a href="#"><i class="fab fa-instagram"></i></a>
+                  <a href="#"><i class="fas fa-envelope"></i></a>
+                </div>
+              </div>
+
+            </div>
+          </div>
+
+          <div class="team__slider-item">
+            <img src="assets/images/team-img-1.png"
+                alt="Avatar"
+                class="image"
+                style="width:100%">
+            <div class="team__slider-item-info">
+
+              <div class="team__slider-item-info-inner">
+                <span class="team__slider-item-pretitle">Designer</span>
+                <span class="team__slider-item-title">CHERRY DYSON</span>
+                <div class="team__slider-item-socials">
+                  <a href="#"><i class="fab fa-twitter"></i></a>
+                  <a href="#"><i class="fab fa-facebook-square"></i></a>
+                  <a href="#"><i class="fab fa-instagram"></i></a>
+                  <a href="#"><i class="fas fa-envelope"></i></a>
+                </div>
+              </div>
+
+            </div>
+          </div>
+
+
+        </div>
+      </div>
+    </section> 
+
+    <section class="contacts">
+      <div class="contacts__inner">
+        <figure>
+          <figcaption>
+            <div class="contacts__inner-info">
+              <div class="contacts__title--md title--md">
+                Need a Design
+                Partner?
+              </div>
+
+
               <p class="text--default">
                 Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
                 Excepteur sint.
               </p>
+
+
+              <div class="inner-info--item">
+                <div class="contacts__title--sm title--sm title--sm--purple">
+                  Call Us
+                </div>
+                <a class="link--default"
+                  href="#"
+                  type="number">+40 770 179 471</a>
+              </div>
+
+              <div class="inner-info--item">
+                <div class="contacts__title--sm title--sm title--sm--purple">
+                  Send Email
+                </div>
+                <a class="link--default"
+                  href="#"
+                  type="email">hello@three.agency</a>
+              </div>
+
+              <div class="inner-info--item">
+                <div class="contacts__title--sm title--sm title--sm--purple">
+                  Twitter
+                </div>
+                <a class="link--default"
+                  href="#"
+                  type="number">@threeagency</a>
+              </div>
+
+              <a href="#"
+                class="contacts__btn btn--default">GET A QUOTE</a>
+
             </div>
+          </figcaption>
 
-
+          <div class="contacts-bg">
+            <div class="contacts-bg-triangle">
+              <img src="assets/images/triangle.svg"
+                  alt="triangle">
+            </div>
+            <div class="contacts-bg-text">
+              <span>Three Studio</span>
+              132 Street Name Goes Here
+              Town, State 1234325
+              United States
+            </div>
           </div>
-        </figcaption>
-      </figure>
 
-      <a href="#"
-         class="about__btn btn--default">READ MORE</a>
-    </div>
-  </section>
-
-  <section class="team">
-    <div class="team__inner">
-      <div class="block-info projects__info">
-        <div class="title--lg">
-          MEET THE
-          <span>SUPERSTARS</span>
-        </div>
-
-        <p class="text--default projects__info-text">
-          We’re a small team but we sure know how to do our job. Below are the awesome heroes behind Three, the people
-          that make
-          it all happen. The people that ensure you and your business are thriving. The people who we couldn’t live
-          without. We
-          also know how to pose.
-        </p>
+        </figure>
       </div>
+    </section> 
 
-      <div class="team__slider">
-
-        <div class="team__slider-item">
-          <img src="img/team-img-1.png"
-               alt="Avatar"
-               class="image"
-               style="width:100%">
-          <div class="team__slider-item-info">
-
-            <div class="team__slider-item-info-inner">
-              <span class="team__slider-item-pretitle">Designer</span>
-              <span class="team__slider-item-title">CHERRY DYSON</span>
-              <div class="team__slider-item-socials">
-                <a href="#"><i class="fab fa-twitter"></i></a>
-                <a href="#"><i class="fab fa-facebook-square"></i></a>
-                <a href="#"><i class="fab fa-instagram"></i></a>
-                <a href="#"><i class="fas fa-envelope"></i></a>
-              </div>
-            </div>
-
-          </div>
+    <footer class="footer">
+      <div class="footer__inner">
+        <div class="footer__socials">
+          <a href="#"><i class="fab fa-twitter"></i></a>
+          <a href="#"><i class="fab fa-facebook-square"></i></a>
+          <a href="#"><i class="fab fa-pinterest-square"></i></a>
+          <a href="#"><i class="fab fa-instagram"></i></a>
+          <a href="#"><i class="fab fa-youtube"></i></a>
+          <a href="#"><i class="fab fa-skype"></i></a>
+          <a href="#"><i class="fas fa-envelope"></i></a>
         </div>
 
-        <div class="team__slider-item">
-          <img src="img/team-img-1.png"
-               alt="Avatar"
-               class="image"
-               style="width:100%">
-          <div class="team__slider-item-info">
+        <nav class="nav footer__nav">
+          <ul>
+            <li><a class="header__link"
+                href="#">Portfolio</a></li>
+            <li><a class="header__link"
+                href="#">About</a></li>
+            <li><a class="header__link"
+                href="#">Articles</a></li>
+            <li><a class="header__link"
+                href="#">Contact</a></li>
+          </ul>
+        </nav>
 
-            <div class="team__slider-item-info-inner">
-              <span class="team__slider-item-pretitle">Designer</span>
-              <span class="team__slider-item-title">CHERRY DYSON</span>
-              <div class="team__slider-item-socials">
-                <a href="#"><i class="fab fa-twitter"></i></a>
-                <a href="#"><i class="fab fa-facebook-square"></i></a>
-                <a href="#"><i class="fab fa-instagram"></i></a>
-                <a href="#"><i class="fas fa-envelope"></i></a>
-              </div>
-            </div>
-
-          </div>
+        <div class="footer__copyright">
+          <span>Copyright © 2017 Three Studio. All rights reserved.</span>
+          <span>Please do not copy any works that you see on this website.</span>
         </div>
-
-        <div class="team__slider-item">
-          <img src="img/team-img-1.png"
-               alt="Avatar"
-               class="image"
-               style="width:100%">
-          <div class="team__slider-item-info">
-
-            <div class="team__slider-item-info-inner">
-              <span class="team__slider-item-pretitle">Designer</span>
-              <span class="team__slider-item-title">CHERRY DYSON</span>
-              <div class="team__slider-item-socials">
-                <a href="#"><i class="fab fa-twitter"></i></a>
-                <a href="#"><i class="fab fa-facebook-square"></i></a>
-                <a href="#"><i class="fab fa-instagram"></i></a>
-                <a href="#"><i class="fas fa-envelope"></i></a>
-              </div>
-            </div>
-
-          </div>
-        </div>
-
-        <div class="team__slider-item">
-          <img src="img/team-img-1.png"
-               alt="Avatar"
-               class="image"
-               style="width:100%">
-          <div class="team__slider-item-info">
-
-            <div class="team__slider-item-info-inner">
-              <span class="team__slider-item-pretitle">Designer</span>
-              <span class="team__slider-item-title">CHERRY DYSON</span>
-              <div class="team__slider-item-socials">
-                <a href="#"><i class="fab fa-twitter"></i></a>
-                <a href="#"><i class="fab fa-facebook-square"></i></a>
-                <a href="#"><i class="fab fa-instagram"></i></a>
-                <a href="#"><i class="fas fa-envelope"></i></a>
-              </div>
-            </div>
-
-          </div>
-        </div>
-
-        <div class="team__slider-item">
-          <img src="img/team-img-1.png"
-               alt="Avatar"
-               class="image"
-               style="width:100%">
-          <div class="team__slider-item-info">
-
-            <div class="team__slider-item-info-inner">
-              <span class="team__slider-item-pretitle">Designer</span>
-              <span class="team__slider-item-title">CHERRY DYSON</span>
-              <div class="team__slider-item-socials">
-                <a href="#"><i class="fab fa-twitter"></i></a>
-                <a href="#"><i class="fab fa-facebook-square"></i></a>
-                <a href="#"><i class="fab fa-instagram"></i></a>
-                <a href="#"><i class="fas fa-envelope"></i></a>
-              </div>
-            </div>
-
-          </div>
-        </div>
-
-        <div class="team__slider-item">
-          <img src="img/team-img-1.png"
-               alt="Avatar"
-               class="image"
-               style="width:100%">
-          <div class="team__slider-item-info">
-
-            <div class="team__slider-item-info-inner">
-              <span class="team__slider-item-pretitle">Designer</span>
-              <span class="team__slider-item-title">CHERRY DYSON</span>
-              <div class="team__slider-item-socials">
-                <a href="#"><i class="fab fa-twitter"></i></a>
-                <a href="#"><i class="fab fa-facebook-square"></i></a>
-                <a href="#"><i class="fab fa-instagram"></i></a>
-                <a href="#"><i class="fas fa-envelope"></i></a>
-              </div>
-            </div>
-
-          </div>
-        </div>
-
-
       </div>
-    </div>
-  </section>
+    </footer> 
 
-   <section class="contacts">
-    <div class="contacts__inner">
-      <figure>
-        <figcaption>
-          <div class="contacts__inner-info">
-            <div class="contacts__title--md title--md">
-              Need a Design
-              Partner?
-            </div>
-
-
-            <p class="text--default">
-              Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
-              Excepteur sint.
-            </p>
-
-
-            <div class="contacts_inner-info--phone">
-              <div class="contacts__title--sm title--sm title--sm--purple">
-                Call Us
-              </div>
-              <a class="link--default"
-                 href="#"
-                 type="number">+40 770 179 471</a>
-            </div>
-
-            <div class="contacts_inner-info--mail">
-              <div class="contacts__title--sm title--sm title--sm--purple">
-                Send Email
-              </div>
-              <a class="link--default"
-                 href="#"
-                 type="email">hello@three.agency</a>
-            </div>
-
-            <div class="contacts_inner-info--twitter">
-              <div class="contacts__title--sm title--sm title--sm--purple">
-                Twitter
-              </div>
-              <a class="link--default"
-                 href="#"
-                 type="number">@threeagency</a>
-            </div>
-
-            <a href="#"
-               class="contacts__btn btn--default">GET A QUOTE</a>
-
-          </div>
-        </figcaption>
-
-        <div class="contacts-bg">
-          <div class="contacts-bg-triangle">
-            <img src="img/triangle.svg"
-                 alt="triangle">
-          </div>
-          <div class="contacts-bg-text">
-            <span>Three Studio</span>
-            132 Street Name Goes Here
-            Town, State 1234325
-            United States
-          </div>
-        </div>
-
-      </figure>
-    </div>
-  </section>
-
-   <footer class="footer">
-    <div class="footer__inner">
-      <div class="footer__socials">
-        <a href="#"><i class="fab fa-twitter"></i></a>
-        <a href="#"><i class="fab fa-facebook-square"></i></a>
-        <a href="#"><i class="fab fa-pinterest-square"></i></a>
-        <a href="#"><i class="fab fa-instagram"></i></a>
-        <a href="#"><i class="fab fa-youtube"></i></a>
-        <a href="#"><i class="fab fa-skype"></i></a>
-        <a href="#"><i class="fas fa-envelope"></i></a>
-      </div>
-
-      <nav class="nav footer__nav">
-        <ul>
-          <li><a class="header__link"
-               href="#">Portfolio</a></li>
-          <li><a class="header__link"
-               href="#">About</a></li>
-          <li><a class="header__link"
-               href="#">Articles</a></li>
-          <li><a class="header__link"
-               href="#">Contact</a></li>
-        </ul>
-      </nav>
-
-      <div class="footer__copyright">
-        <span>Copyright © 2017 Three Studio. All rights reserved.</span>
-        <span>Please do not copy any works that you see on this website.</span>
-      </div>
-    </div>
-  </footer>
-
-
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
-  <script src="js/libs.min.js"></script>
-  <script src="js/main.js"></script>
-</body>
-
+    <!-- Scripts -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="assets/js/vendors.min.js?cb=1593023651679"></script>
+    <script src="assets/js/app.min.js?cb=1593023651679"></script>
+  </body>
 </html>
